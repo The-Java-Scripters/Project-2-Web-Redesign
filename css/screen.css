@@ -1,0 +1,89 @@
+#desktop {
+  display: none;
+}
+
+#heading img{
+  width: 25%;
+}
+
+#heading h1 {
+  width: 75%;
+  text-align: center;
+  float: right;
+  color: #2B6CA3;
+  font-size: 2em;
+}
+
+#drop-nav p {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  background-color: #2B6CA3;
+  color: white;
+  padding: 16px 0 18px 0;
+}
+
+#drop-nav button{
+  width: 20%;
+  float: right;
+}
+
+/* Arrow Reference: https://www.w3schools.com/howto/howto_css_arrows.asp */ 
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px 3px 3px 3px;
+  margin-bottom: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Dropdown menu Reference: https://www.w3schools.com/css/css_dropdowns.asp */
+#dropbtn {
+  background-color: #2B6CA3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2e76b1;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+#dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#dropdown-content a:hover {
+  background-color: #103858;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#dropdown:hover #dropbtn {
+  background-color: #103858;
+}
