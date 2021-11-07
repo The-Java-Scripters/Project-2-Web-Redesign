@@ -109,10 +109,6 @@ html {
   #desktop {
     display: block;
   }
-
-  header h1 {
-    float: right;
-  }
   
   /* Equal Width Navbar Reference: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
   #navbox{
