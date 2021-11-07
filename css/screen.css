@@ -9,9 +9,12 @@
 #heading h1 {
   width: 85%;
   text-align: center;
+  vertical-align: middle;
+  line-height: 100%;
   float: right;
   color: #2B6CA3;
-  font-size: 200%;
+  font-size: 6vmin;
+  line-height: 1.182em;
 }
 
 #drop-nav p {
