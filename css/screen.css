@@ -110,50 +110,40 @@ html {
     display: block;
   }
 
+  header h1 {
+    float: right;
+  }
+  
+  /* Equal Width Navbar Reference: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
   #navbox{
     display: block;
-    background-color: #2B6CA3;
     overflow: hidden;
     width: 100%;
   }
 
-  #navbox ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
+  #navbar {
+    width: 100%;
+    background-color: #2B6CA3;
+    overflow: auto;
+  }
+
+  #navbar a {
     float: left;
-    left:50%;
-  }
-
-  #navbox ul li{
-    float: left;
-    position:relative;
-    right: 50%;
-    border-right: 1px solid #ffffff;
-  }
-
-  #navbar ul li:last-child {
-    border-right: none;
-  }
-
-  #navbox ul li a{ 
-    display: block;
+    padding: 12px 0 12px 0;
+    color: white;
     text-decoration: none;
-    color:white;
-    float: left;
-    padding: 10px 20px;
+    font-size: 17px;
+    width: 33.33%;
+    text-align: center;
+  }
+
+  #navbar a:hover {
+    background-color: #103858;
   }
   
-  #navbox ul li a:hover{
+  #navbar #on{
     background-color: #103858;  
   }
   
-  #navbar #on a{
-    background-color: #103858;  
-  }
   
-  header h1 {
-    float: right;
-  }
 }
