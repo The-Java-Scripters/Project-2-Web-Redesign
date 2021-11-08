@@ -1,0 +1,145 @@
+#desktop {
+  display: none;
+}
+
+html {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+#heading img{
+  width: 15%;
+}
+
+#heading h1 {
+  width: 85%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100%;
+  float: right;
+  color: #2B6CA3;
+  font-size: 7vmin;
+  line-height: 1.182em;
+  font-weight: bold;
+}
+
+#drop-nav p {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  background-color: #2B6CA3;
+  color: white;
+  padding: 17px 0 18.5px 0;
+  font-size: 1.5em;
+}
+
+#drop-nav button{
+  width: 20%;
+  float: right;
+}
+
+/* Arrow Reference: https://www.w3schools.com/howto/howto_css_arrows.asp */ 
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px 3px 3px 3px;
+  margin-bottom: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Dropdown menu Reference: https://www.w3schools.com/css/css_dropdowns.asp */
+#dropbtn {
+  background-color: #2B6CA3;
+  color: white;
+  padding: 1.3em;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2e76b1;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+#dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 18px 0 18px 0;
+  font-size: 1.5em;
+  text-decoration: none;
+  display: block;
+}
+
+#dropdown-content a:hover {
+  background-color: #103858;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#dropdown:hover #dropbtn {
+  background-color: #103858;
+}
+
+@media screen and (min-width: 992px){
+  #mobile {
+    display: none;
+  }
+  .dropdown {
+    display:none;
+  }
+
+  #desktop {
+    display: block;
+  }
+  
+  /* Equal Width Navbar Reference: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
+  #navbox{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  #navbar {
+    width: 100%;
+    background-color: #2B6CA3;
+    overflow: auto;
+  }
+
+  #navbar a {
+    float: left;
+    padding: 12px 0 12px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.33%;
+    text-align: center;
+  }
+
+  #navbar a:hover {
+    background-color: #103858;
+  }
+  
+  #navbar #on{
+    background-color: #103858;  
+  }
+  
+  
+}
