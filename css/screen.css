@@ -22,7 +22,7 @@ html {
   font-weight: bold;
 }
 
-#drop-nav p {
+#nav-heading p {
   display: inline-block;
   width: 80%;
   text-align: center;
@@ -32,7 +32,7 @@ html {
   font-size: 1.5em;
 }
 
-#drop-nav button{
+#nav-heading #dropdown{
   width: 20%;
   float: right;
 }
@@ -54,6 +54,7 @@ html {
 /* Dropdown menu Reference: https://www.w3schools.com/css/css_dropdowns.asp */
 #dropbtn {
   background-color: #2B6CA3;
+  width: 100%;
   color: white;
   padding: 1.3em;
   font-size: 16px;
@@ -71,7 +72,7 @@ html {
   display: none;
   position: absolute;
   background-color: #2e76b1;
-  width: 100%;
+  width: 500%;
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
