@@ -99,6 +99,66 @@ html {
   background-color: #103858;
 }
 
+/* */
+#sub-nav-heading #sub-dropdown {
+  width: 20%;
+  float: right;
+}
+
+#sub-nav-heading #sub-nav {
+  width: 60%;
+  display: inline-block;
+  padding-left: 20%;
+}
+
+
+#sub-dropbtn {
+  background-color: #236fad;
+  width: 100%;
+  color: white;
+  padding: 1.3em;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#sub-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#sub-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2577b9;
+  width: 500%;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+#sub-dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 18px 0 18px 0;
+  font-size: 1.5em;
+  text-decoration: none;
+  display: block;
+}
+
+#sub-dropdown-content a:hover {
+  background-color: #103858;
+}
+
+#sub-dropdown:hover #sub-dropdown-content {
+  display: block;
+}
+
+#sub-dropdown:hover #sub-dropbtn {
+  background-color: #103858;
+}
+
 @media screen and (min-width: 992px){
   #mobile {
     display: none;
