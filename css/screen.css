@@ -262,10 +262,17 @@ html {
   width: 100%;
 }
 
-.bx-wrapper {
-  width: 75%;
+#content .bx-wrapper {
+  width: 50%;
   margin: 0 auto;
   text-align: center;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#content .bx-wrapper .bx-pager.bx-default-pager a {
+  display: none;
 }
 
 #text-content ul { 
