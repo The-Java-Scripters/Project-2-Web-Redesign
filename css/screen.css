@@ -255,3 +255,17 @@ html {
     display: block;
   }
 }
+
+.slider img {
+  margin: 0 auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.bx-wrapper {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
