@@ -268,4 +268,42 @@ html {
   text-align: center;
 }
 
+#text-content ul { 
+  list-style-type: disc; 
+  list-style-position: inside; 
+}
 
+#text-content {
+  font-size: 1.1em;
+}
+
+#text-content li{
+  padding-bottom: 1em;
+}
+
+#text-content ul {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#text-content p {
+  padding-bottom: 1.5em;
+}
+#text-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#text-content a p {
+  text-align: center;
+  font-size: 1.3em;
+  color: #2e76b1;
+}
+
+#text-content a{
+  text-decoration: none;
+}
+
+#text-content a:hover {
+  text-decoration: underline;
+}
