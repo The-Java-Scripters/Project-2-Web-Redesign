@@ -1,9 +1,9 @@
-#desktop {
-  display: none;
-}
-
 html {
   font-family: Arial,Helvetica,sans-serif;
+}
+
+#desktop {
+  display: none;
 }
 
 #heading img{
@@ -50,13 +50,96 @@ html {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+/* Reference: https://www.w3schools.com/howto/howto_css_subnav.asp */
+#navbar {
+  overflow: hidden;
+  background-color: #2B6CA3;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 33.33%;
+  padding: 1em 0 1em 0;
+}
+
+#subnav {
+  width: 33.33%;
+}
+
+#subnavbtn {
+  width: 100%;
+}
+
+i {
+  float: right;
+}
+
+#subnav-content a {
+  float: left;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  text-decoration: none;
+  width: 25%;
+}
+
+#subnav {
+  float: left;
+  overflow: hidden;
+}
+
+#subnav #subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+#navbar a:hover, #subnav:hover #subnavbtn {
+  background-color: #103858;
+}
+
+#subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #2e76b1;
+  width: 100%;
+  z-index: 1;
+}
+
+#subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+#subnav-content a:hover {
+  background-color: #194468;
+  color: white;
+}
+
+#subnav:hover #subnav-content {
+  display: block;
+}
 
 /* Dropdown menu Reference: https://www.w3schools.com/css/css_dropdowns.asp */
 #dropbtn {
   background-color: #2B6CA3;
   width: 100%;
   color: white;
-  padding: 1.3em;
+  padding: 1.5em 4em 1.5em 0;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -98,8 +181,8 @@ html {
 #dropdown:hover #dropbtn {
   background-color: #103858;
 }
-
 /* */
+
 #sub-nav-heading #sub-dropdown {
   width: 20%;
   float: right;
@@ -111,12 +194,11 @@ html {
   padding-left: 20%;
 }
 
-
 #sub-dropbtn {
   background-color: #236fad;
   width: 100%;
   color: white;
-  padding: 1.3em;
+  padding: 1.5em 4em 1.5em 0;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -159,103 +241,6 @@ html {
   background-color: #103858;
 }
 
-@media screen and (min-width: 992px){
-  #mobile {
-    display: none;
-  }
-
-  .dropdown {
-    display:none;
-  }
-
-  #desktop {
-    display: block;
-  }
-  
-  /* Reference: https://www.w3schools.com/howto/howto_css_subnav.asp */
-  #navbar {
-    overflow: hidden;
-    background-color: #2B6CA3;
-  }
-  
-  #navbar a {
-    float: left;
-    font-size: 1em;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    width: 33.33%;
-    padding: 1em 0 1em 0;
-  }
-
-  #subnav {
-    width: 33.33%;
-  }
-
-  #subnavbtn {
-    width: 100%;
-  }
-
-  i {
-    float: right;
-  }
-
-  #subnav-content a {
-    float: left;
-    font-size: 1em;
-    color: white;
-    text-align: center;
-    padding: 1em 0 1em 0;
-    text-decoration: none;
-    width: 25%;
-  }
-  
-  #subnav {
-    float: left;
-    overflow: hidden;
-  }
-  
-  #subnav #subnavbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  #navbar a:hover, #subnav:hover #subnavbtn {
-    background-color: #103858;
-  }
-  
-  #subnav-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: #2e76b1;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  #subnav-content a {
-    float: left;
-    color: white;
-    text-decoration: none;
-  }
-  
-  #subnav-content a:hover {
-    background-color: #194468;
-    color: white;
-  }
-  
-  #subnav:hover #subnav-content {
-    display: block;
-  }
-}
-
 .slider img {
   margin: 0 auto;
   vertical-align: middle;
@@ -263,7 +248,7 @@ html {
 }
 
 #content .bx-wrapper {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   -webkit-box-shadow: none;
@@ -276,13 +261,17 @@ html {
   display: none;
 }
 
+.bx-caption {
+  font-size: 1.5em;
+}
+
 #text-content ul { 
   list-style-type: disc; 
   list-style-position: inside; 
 }
 
 #text-content {
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 #text-content li{
@@ -298,7 +287,7 @@ html {
   padding: 1em 0 1.5em 0;
 }
 #text-content {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -315,3 +304,41 @@ html {
 #text-content a:hover {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 992px){
+  #mobile {
+    display: none;
+  }
+
+  #desktop {
+    display: block;
+  }
+
+  #content .bx-wrapper {
+    width: 70%;
+  }
+
+  #text-content {
+    width: 75%;
+  }
+
+  #text-content {
+    font-size: 1em;
+  }
+
+  .bx-caption {
+    font-size: 1em;
+  }
+
+}
+
+@media screen and (min-width: 1500px){
+  #content .bx-wrapper {
+    width: 50%;
+  }
+
+  #text-content {
+    width: 55%;
+  }
+}
+
