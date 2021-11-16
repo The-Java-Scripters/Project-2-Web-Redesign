@@ -6,23 +6,41 @@
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/normalize-form.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header>
     <div id="mobile">
-      <div id="dropdown">
-        <div id="heading">
-          <img src="images/logo.jpg" alt="worldialogue logo">
-          <h1>The International Society for Universal Dialogue</h1>
-        </div>
-        <div id="drop-nav">
-          <p>About Us</p>
-          <button id="dropbtn"><i class="arrow down"></i></button>
-        </div>
-        <div id="dropdown-content">
-          <a href="index.html">Home</a>
-          <a href="aboutUs.html">About Us</a>
-          <a href="contact.html">Contact</a>
+      <div id="heading">
+        <img src="images/logo.jpg" alt="worldialogue logo">
+        <h1>The International Society for Universal Dialogue</h1>
+      </div>
+      <div id="nav-heading">
+        <p>About Us</p>
+        <div id="dropdown">
+          <div id="drop-nav"> 
+            <button id="dropbtn"><i class="arrow down"></i></button>
+          </div>
+          <div id="dropdown-content">
+            <a href="index.html">Home</a>
+            <div id="sub-nav-heading">
+              <a id="sub-nav" href="aboutUs.html">About Us</a>
+              <div id="sub-dropdown">
+                <div id="sub-drop-nav"> 
+                  <button id="sub-dropbtn"><i class="arrow down"></i></button>
+                </div>
+                <div id="sub-dropdown-content">
+                  <a href="history.html">History</a>
+                  <a href="constitution.html">Constitution</a>
+                  <a href="journal.html">D & U Journal</a>
+                </div>
+              </div>
+            </div>
+            <a href="contact.html">Contact</a>
+          </div>
         </div>
       </div>
     </div>
@@ -32,14 +50,60 @@
         <img src="images/logo.jpg" alt="worldialogue logo">
         <h1>The International Society for Universal Dialogue</h1>
       </div>
-      <div id="navbox">
-        <nav id="navbar">
-          <a href="index.html">Home</a>
-          <a id="on" href="aboutUs.html">About Us</a>
-          <a href="contact.html">Contact</a>
-        </nav>
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <div id="subnav">
+          <button id="subnavbtn">About Us <i class="arrow down"></i></button>
+          <div id="subnav-content">
+            <a href="aboutUs.html">About Us</a>
+            <a href="history.html">History</a>
+            <a href="constitution.html">Constitution</a>
+            <a href="journal.html">U & J Journal</a>
+          </div>
+        </div> 
+        <a href="contact.html">Contact</a>
       </div>
     </div>
   </header>
+  <div id="content">
+    <div class="slider">
+      <div>
+        <img src="images/man-mountains.jpg" alt="Man looking out into the mountains" title="Man looking out into the mountains.">
+        <div class="bx-caption">
+          <span>Man looking out into the mountains.</span>
+        </div>
+      </div>
+      <div>
+        <img src="images/monkey.jpg" alt="Mokey" title="Monkey">
+        <div class="bx-caption">
+          <span>Monkey in a tree.</span>
+        </div>
+      </div>
+      <div>
+        <img src="images/pollution.jpg" alt="Polluted water" title="Polluted water">
+        <div class="bx-caption">
+          <span>Polluted water.</span>
+        </div>
+      </div>
+      <div>
+        <img src="images/statue.jpg" alt="Oriental statue" title="Oriental statue">
+        <div class="bx-caption">
+          <span>Oriental statue.</span>
+        </div>
+      </div>
+    </div>
+    <div id="text-content">
+      <p>ISUD is a society of scholars, mostly philosophers, from many parts of the world, devoted to promoting international dialogue and the discussion of fundamental questions of universal concern, which affect all humanity, such as world peace, human rights, dialogical interrelations of diverse cultures, and preservation of the world ecology.</p>
+      <ul>
+        <li>What role does philosophical thinking have to play in moving toward a more rational and more humane future?</li>
+        <li>What are ethical principles of dialogue?</li>
+        <li>How may one understand cultural diversity and universality?</li>
+        <li>How best to work toward a culture of peace?</li>
+        <li>What is the relationship between the basic liberties of individuals and the collective rights of cultural groups?</li>
+      </ul>
+      <a href="https://www.worldialogue.org/videos"><p>CLICK HERE TO VIEW FEATURED MEMBER RESEARCH & PROFILES</p></a>
+      <p>Join us in the search for answers and more question. Become an active member with the ISUD. Email us HERE for more information.</p>
+    </div>
+  </div>
 </body>
 </html>
