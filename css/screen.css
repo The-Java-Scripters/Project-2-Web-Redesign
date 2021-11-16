@@ -69,6 +69,41 @@ html {
   line-height: 1.182em;
   font-weight: bold;
 }
+#forms {
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  padding: 0 20px;
+}
+#forms h1 {
+  text-align: center;
+  line-height: 100%;
+  color: #2B6CA3;
+  font-size: 3em;
+  line-height: 1.182em;
+  font-weight: bold;
+}
+
+#fname, #lname, #em {
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  height: 45px;
+  width: 350px;
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 30px;
+}
+
+#message {
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  width: 350px;
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 30px;
+}
 
 #drop-nav p {
   display: inline-block;
