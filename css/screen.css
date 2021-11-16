@@ -337,6 +337,20 @@ i {
   font-size: 1.5em;
 }
 
+#journal-content {
+  width: 95%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+#journal-content img {
+  width: 75%;
+}
+
+#journal-content p {
+  padding-top: 1em;
+}
+
 @media screen and (min-width: 992px){
   #mobile {
     display: none;
@@ -379,6 +393,20 @@ i {
     font-size: 1em;
   }
 
+  #journal-content {
+    width: 75%;
+  }
+  
+  #journal-content img {
+    width: 40%;
+  }
+  
+  #journal-content p {
+    width: 50%;
+    padding-top: 1em;
+    float: right;
+  }
+
 }
 
 @media screen and (min-width: 1500px){
@@ -398,6 +426,10 @@ i {
 
   #constitution-content {
     width: 55%;
+  }
+
+  #journal-content img {
+    width: 500px;
   }
 }
 
