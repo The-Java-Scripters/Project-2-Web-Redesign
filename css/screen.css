@@ -305,6 +305,22 @@ i {
   text-decoration: underline;
 }
 
+#history-content {
+  width: 95%;
+  margin: 1em auto;
+  font-size: 1.5em;
+}
+
+#history-content h1 {
+  font-weight: bold;
+  font-size: 1.75em;
+  padding-bottom: 1em;
+}
+
+#history-content p {
+  padding-bottom: 1em;
+}
+
 @media screen and (min-width: 992px){
   #mobile {
     display: none;
@@ -322,8 +338,10 @@ i {
     width: 75%;
   }
 
-  #text-content {
+  #history-content {
     font-size: 1em;
+    padding-top: 1em;
+    width: 75%;
   }
 
   .bx-caption {
@@ -338,6 +356,12 @@ i {
   }
 
   #text-content {
+    width: 55%;
+  }
+
+  #history-content {
+    font-size: 1em;
+    padding-top: 1em;
     width: 55%;
   }
 }
