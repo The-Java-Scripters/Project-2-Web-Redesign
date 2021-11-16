@@ -321,6 +321,22 @@ i {
   padding-bottom: 1em;
 }
 
+#constitution-content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#constitution-content h1 {
+  font-weight: bold;
+  font-size: 1.75em;
+  padding: 1em 0 1em 0;
+}
+
+#constitution-content p {
+  padding-bottom: 1em;
+  font-size: 1.5em;
+}
+
 @media screen and (min-width: 992px){
   #mobile {
     display: none;
@@ -348,6 +364,21 @@ i {
     font-size: 1em;
   }
 
+  #constitution-content {
+    width: 75%;
+  }
+  
+  #constitution-content h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em 0 1em 0;
+  }
+  
+  #constitution-content p {
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
+
 }
 
 @media screen and (min-width: 1500px){
@@ -362,6 +393,10 @@ i {
   #history-content {
     font-size: 1em;
     padding-top: 1em;
+    width: 55%;
+  }
+
+  #constitution-content {
     width: 55%;
   }
 }
