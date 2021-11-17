@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 23% 30%;
-  text-align: center;
-}
 header {
   margin-bottom: 35px;
 }
@@ -452,9 +448,9 @@ i {
 
   #text-content {
     width: 75%;
-
+  }
   /* Equal Width Navbar Reference: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
-  #navbox{
+  #navbox {
     display: block;
     overflow: hidden;
     width: 100%;
