@@ -454,6 +454,22 @@ i {
   padding-top: 1em;
 }
 
+#featuredVideo{
+  border: 1px solid #2B6CA3;
+  width: 50%;
+  margin-left: 24.2%;
+  padding: 10px; 
+  margin-top: 10px;
+  text-align:center;
+}
+
+#featuredVidHead {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+  text-align: center;
+}
+
 @media screen and (min-width: 992px){
   #mobile {
     display: none;
@@ -548,8 +564,15 @@ i {
     width: 600px;
     margin: 0 auto;
   }
+  
+}
+
+
+  #forms {
+    width: 600px;
+    margin: 0 auto;
+  }
   #forms input {
     width: 500px;
   }
 }
-
