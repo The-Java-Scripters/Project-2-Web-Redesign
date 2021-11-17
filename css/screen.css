@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 2.3% 3.0%;
+  margin: 2.3% 0%;
   text-align: center;
 }
 header {
@@ -58,18 +58,18 @@ html {
   font-family: Arial,Helvetica,sans-serif;
 }
 #heading img{
-  width: 15%;
+  width: 8%;
 }
 
 #heading h1 {
-  width: 85%;
+  width: 90%;
   text-align: center;
   vertical-align: middle;
   line-height: 100%;
   float: right;
   color: #2B6CA3;
   font-size: 7vmin;
-  line-height: 1.182em;
+  line-height: 1.5em;
   font-weight: bold;
 }
 #forms {
