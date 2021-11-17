@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 23% 30%;
-  text-align: center;
-}
 header {
   margin-bottom: 35px;
 }
@@ -72,11 +68,14 @@ html {
   line-height: 1.182em;
   font-weight: bold;
 }
+
 #forms {
   background-color: #f2f2f2;
   border-radius: 30px;
   padding: 0 20px;
+  text-align: center;
 }
+
 #forms h1 {
   text-align: center;
   line-height: 100%;
@@ -86,12 +85,31 @@ html {
   font-weight: bold;
 }
 
+#forms input {
+  margin-bottom: 1em;
+  
+}
+
+form #em, #message {
+  width: 90%;
+}
+
+#submit {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid black;
+  padding: 1em;
+  background-color: #1f78c0;
+  color: white;
+  font-size: 1.5em;
+}
+
 #fname, #lname, #em {
   border: 0;
   position: relative;
   overflow: hidden;
   height: 45px;
-  width: 350px;
+  width: 45%;
   background-color: #fff;
   padding: 0 20px;
   border-radius: 30px;
@@ -102,7 +120,6 @@ html {
   position: relative;
   overflow: hidden;
   height: 200px;
-  width: 350px;
   background-color: #fff;
   padding: 0 20px;
   border-radius: 30px;
@@ -452,9 +469,9 @@ i {
 
   #text-content {
     width: 75%;
-
+  }
   /* Equal Width Navbar Reference: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
-  #navbox{
+  #navbox {
     display: block;
     overflow: hidden;
     width: 100%;
@@ -497,7 +514,11 @@ i {
     width: 50%;
     padding-top: 1em;
     float: right;
-    }
+  }
+
+  #forms input {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1500px){
@@ -520,6 +541,14 @@ i {
   }
 
   #journal-content img {
+    width: 500px;
+  }
+
+  #forms {
+    width: 600px;
+    margin: 0 auto;
+  }
+  #forms input {
     width: 500px;
   }
 }
