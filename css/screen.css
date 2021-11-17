@@ -72,6 +72,22 @@ html {
   line-height: 1.5em;
   font-weight: bold;
 }
+
+#featuredVideo{
+  border: 1px solid #2B6CA3;
+  width: 50%;
+  margin-left: 24.2%;
+  padding: 10px; 
+  margin-top: 10px;
+}
+
+#featuredVidHead {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+  text-align: left;
+}
+
 #forms {
   background-color: #f2f2f2;
   border-radius: 30px;
