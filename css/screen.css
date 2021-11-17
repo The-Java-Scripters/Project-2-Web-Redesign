@@ -564,6 +564,14 @@ i {
     width: 600px;
     margin: 0 auto;
   }
+  
+}
+
+
+  #forms {
+    width: 600px;
+    margin: 0 auto;
+  }
   #forms input {
     width: 500px;
   }
