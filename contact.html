@@ -6,6 +6,9 @@
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/normalize-form.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script async src="script.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin='anonymous'></script>
 </head>
 <body>
   <header>
@@ -46,6 +49,7 @@
         <img src="images/logo.jpg" alt="worldialogue logo">
         <h1>The International Society for Universal Dialogue</h1>
       </div>
+      <button style='font-size:24px' id="dark" onclick="myFunction()">Dark mode<i class='material-icons'>dark_mode</i></button>
       <div id="navbar">
         <a href="index.html">Home</a>
         <div id="subnav">
@@ -63,12 +67,12 @@
   </header>
   <div id="forms">
   <h1>Contact Us</h1>
-  <form method="get" action="#null" autocomplete="on">
+  <form method="get" name="con" method="get" onsubmit="validateForm()" action="#null" autocomplete="on">
     <input type="text" id="fname" name="fname" placeholder="First name">
     <input type="text" id="lname" name="lname" placeholder="Last Name">
     <input type="text" id="em" name="em" placeholder="E-mail">
     <input type="text" id="message" name="message" placeholder="Your message">
-    <input type="submit" id = "submit" value="Send!">
+    <input type="submit" id = "submit" value="Deliver now!">
   </form>
   </div>
 </body>

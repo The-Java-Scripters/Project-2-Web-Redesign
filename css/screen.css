@@ -48,7 +48,8 @@ nav a {
   border-radius: 8px 8px 0 0;
 }
 
-
+.dark-mode {
+}
 
 html {
   font-family: Arial,Helvetica,sans-serif;
@@ -87,7 +88,7 @@ html {
 
 #forms input {
   margin-bottom: 1em;
-  
+
 }
 
 form #em, #message {
@@ -169,6 +170,10 @@ form #em, #message {
   vertical-align: middle;
   width: 33.33%;
   padding: 1em 0 1em 0;
+}
+
+#dark {
+  float: right;
 }
 
 #subnav {
@@ -368,9 +373,9 @@ i {
   font-size: 1.5em;
 }
 
-#text-content ul { 
-  list-style-type: disc; 
-  list-style-position: inside; 
+#text-content ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 #text-content {
@@ -458,7 +463,7 @@ i {
   border: 1px solid #2B6CA3;
   width: 50%;
   margin-left: 24.2%;
-  padding: 10px; 
+  padding: 10px;
   margin-top: 10px;
   text-align:center;
 }
@@ -506,13 +511,13 @@ i {
   #constitution-content {
     width: 75%;
   }
-  
+
   #constitution-content h1 {
     font-weight: bold;
     font-size: 1.5em;
     padding: 1em 0 1em 0;
   }
-  
+
   #constitution-content p {
     padding-bottom: 1em;
     font-size: 1em;
@@ -521,11 +526,11 @@ i {
   #journal-content {
     width: 75%;
   }
-  
+
   #journal-content img {
     width: 40%;
   }
-  
+
   #journal-content p {
     width: 50%;
     padding-top: 1em;
@@ -564,7 +569,7 @@ i {
     width: 600px;
     margin: 0 auto;
   }
-  
+
 }
 
 
