@@ -445,6 +445,10 @@ i {
   font-size: 1.5em;
 }
 
+.articleSub {
+	font-weight:bold;
+}
+
 #journal-content {
   width: 95%;
   margin: 1em auto;
