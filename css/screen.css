@@ -9,6 +9,7 @@
 iframe {
   width: 100%;
   height: 30vmax;
+  border: none;
 }
 
 header {
