@@ -9,6 +9,7 @@
 iframe {
   width: 100%;
   height: 30vmax;
+  border: none;
 }
 
 header {
@@ -58,11 +59,11 @@ nav a {
 html {
   font-family: Arial,Helvetica,sans-serif;
 }
-#heading img{
+.heading img{
   width: 15%;
 }
 
-#heading h1 {
+.heading h1 {
   width: 85%;
   text-align: center;
   vertical-align: middle;
